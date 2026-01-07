@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Login Page</title>
+</head>
+<body>
+
+    <h2>Login Form</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br><br>
+
+        <label>Mobile Number:</label><br>
+        <input type="tel" name="mobile" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
