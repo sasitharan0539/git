@@ -5,15 +5,15 @@ function validateForm() {
     var mobile = document.forms[0]["mobile"].value;
 
     if (name === "" || email === "" || dob === "" || mobile === "") {
-        alert("All fields are required!");
+        alert("All fields are successfully required!");
         return false;
     }
 
     if (mobile.length !== 10 || isNaN(mobile)) {
-        alert("Please enter a valid 10-digit mobile number");
+        alert("Please enter a valid 10-digit mobile number in indian phone number");
         return false;
     }
 
-    alert("Login successful!");
+    alert("Login unsuccessful!");
     return true; 
 }
